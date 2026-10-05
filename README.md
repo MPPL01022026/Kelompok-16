@@ -22,7 +22,7 @@
 
 <div align="center">
 
-**Luckchup & Mochiw Digital System** adalah platform katalog dan informasi produk kuliner interaktif. Web ini dibuat untuk memudahkan pelanggan Kedai Wulan dalam melihat daftar varian rasa, harga terbaru, serta melakukan pemesanan secara praktis langsung melalui integrasi media sosial.
+**Luckchup & Mochiw Digital System** adalah platform katalog dan informasi produk kuliner interaktif. Web ini dibuat untuk memudahkan pelanggan Kedai Wulan dalam melihat daftar varian rasa, harga terbaru, serta melakukan pemesanan secara practical langsung melalui integrasi media sosial.
 
 </div>
 
@@ -39,8 +39,8 @@
 
 <table align="center" width="100%">
   <tr>
-    <th width="33%" align="center">🍡 Luckchup (Rp 5.000)</th>
-    <th width="33%" align="center">🧁 Mochi (Rp 5.000)</th>
+    <th width="33%" align="center">🍡 Luckchup (Rp 2.000)</th>
+    <th width="33%" align="center">🧁 Mochiw (Rp 5.000)</th>
     <th width="34%" align="center">📲 Kontak & Pemesanan</th>
   </tr>
   <tr>
@@ -94,23 +94,23 @@
 | Teknologi | Peran dalam Project |
 | :--- | :--- |
 | 🌸 **HTML5** | Penyusun struktur dokumen dan elemen antarmuka web |
-| 🎀 **CSS3** | Desain tata letak, responsivitas, dan tema *pastel pink* |
+| 🎀 **CSS** | Desain tata letak, responsivitas, dan tema *pastel pink* |
 | ✨ **JavaScript** | Logika interaktif pada menu dan tombol navigasi |
 | 📦 **Git & GitHub** | Kolaborasi tim, manajemen versi, dan repositori proyek |
 
 ---
 
-## 👩‍💻 Tim Pengembang (Our Team)
+## 👩‍💻 Our Team
 
 <table align="center" width="100%">
   <tr align="center">
-    <td><b>Ocha Cindikya Ayum</b></td>
     <td><b>Latifah Hanum</b></td>
+    <td><b>Ocha Cindikya Ayumi</b></td>
     <td><b>Qurratu Ain Nazmi</b></td>
     <td><b>Safira Ussy Mahendra</b></td>
   </tr>
   <tr align="center">
-    <td><code>NIM : 2305040001</code></td>
+    <td><code>NIM : 230504061</code></td>
     <td><code>NIM : 230504126</code></td>
     <td><code>NIM : 230504123</code></td>
     <td><code>NIM : 230504135</code></td>
@@ -137,14 +137,13 @@
 
 <div align="center">
 
-![PRODI](https://img.shields.io/badge/INFORMATIKA-FFB6C1?style=for-the-badge&logoColor=white)
+![PRODI](https://img.shields.io/badge/INFORMATIKA-UNIVERSITAS_SAMUDRA-FFB6C1?style=for-the-badge&logoColor=white)
 
 ### **Mata Kuliah: Manajemen Proyek Perangkat Lunak**
 
 **Dosen Pengampu:**  
-*Cut Alna Fadilla, S.Kom., M.Kom.*
+*Cut Alna Fadhilla, S.Kom., M.Sc.*
 
 ---
-<sub>Designed with 💕 by Team Luckchup & Mochiw</sub>
 
 </div>
