@@ -104,8 +104,8 @@
 
 <table align="center" width="100%">
   <tr align="center">
+    <td><b>Ocha Cindikya Ayum</b></td>
     <td><b>Latifah Hanum</b></td>
-    <td><b>Ocha Cindikya Ayumi</b></td>
     <td><b>Qurratu Ain Nazmi</b></td>
     <td><b>Safira Ussy Mahendra</b></td>
   </tr>
