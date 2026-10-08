@@ -1,0 +1,133 @@
+/* Gaya Utama Mochi & Lukchup Customizer - Tema Putih & Pink */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9fb; /* Latar belakang putih dengan sentuhan pink sangat tipis */
+    color: #4a4044;
+}
+
+header {
+    background: linear-gradient(135deg, #ffb6c1, #ff91a4); /* Gradasi pink lembut ala mochi */
+    color: #ffffff;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(255, 182, 193, 0.4);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-bottom: 2px solid #ffe4e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+nav a {
+    color: #d87093; /* Warna teks pink medium (pale violet red) */
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ff69b4;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(255, 182, 193, 0.15);
+    border: 1px solid #ffe4e6;
+}
+
+h2 {
+    color: #d87093;
+    border-bottom: 2px solid #fff0f3;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.team-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.team-list li {
+    background-color: #fff5f7;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-left: 4px solid #ffb6c1;
+}
+
+/* Area Canvas Customizer (Persiapan Fitur 2D) */
+.customizer-box {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.canvas-area {
+    flex: 2;
+    height: 320px;
+    background-color: #fff0f3;
+    border: 2px dashed #ffb6c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #d87093;
+    font-weight: 600;
+}
+
+.controls-area {
+    flex: 1;
+    background-color: #fff9fb;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ffe4e6;
+}
+
+.controls-area h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #6d4c54;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #ffb6c1, #ff8da1);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: opacity 0.2s, box-shadow 0.2s;
+    box-shadow: 0 3px 10px rgba(255, 141, 161, 0.3);
+}
+
+.btn:hover {
+    opacity: 0.9;
+    box-shadow: 0 4px 12px rgba(255, 141, 161, 0.5);
+}
