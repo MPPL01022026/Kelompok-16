@@ -46,26 +46,26 @@
 - [Struktur & Pembagian Tim](#-struktur--pembagian-tim)
 - [Work Breakdown Structure (WBS)](#-work-breakdown-structure-wbs)
 - [Hasil Observasi Klien & Solusi Sistem](#-hasil-observasi-klien--solusi-sistem)
-- [Analisis Ukuran Perangkat Lunak (Function Point)](#-analisis-ukuran-perangkat-lunak-function-point)
+- [Katalog Menu & Harga](#-katalog-menu--harga)
 - [Tech Stack & Tools](#️-tech-stack--tools)
 
 ---
 
 ## 🎯 Project Charter & Ruang Lingkup
 
-- **Nama Proyek:** *Web-Based Interactive 2D Mochi & Lukchup Customizer & Best-Seller Analytics Dashboard*[cite: 1].
-- **Tujuan Proyek:** Membangun sistem web 2D interaktif terintegrasi bagi UMKM untuk memfasilitasi pemesanan *pick-up* cepat, PO *box* kustomisasi rasa (minimal H-1), pembayaran online/di tempat, serta analitik *top 3 best-seller*[cite: 1, 2].
+- **Nama Proyek:** *Web-Based Interactive 2D Mochi & Lukchup Customizer & Best-Seller Analytics Dashboard*.
+- **Tujuan Proyek:** Membangun sistem web 2D interaktif terintegrasi bagi UMKM untuk memfasilitasi pemesanan *pick-up* cepat, PO *box* kustomisasi rasa (minimal H-1), pembayaran online/di tempat, serta analitik *top 3 best-seller*.
 
 ### **Ruang Lingkup (*Project Scope*):**
 - **In-Scope:**
-  * Pembuatan antarmuka web 2D yang responsif dan interaktif (HTML, CSS, JavaScript)[cite: 1].
-  * Katalog menu produk Mochi & Lukchup terbagi atas menu *Ready* (*Pick-up*) dan menu PO *Box*[cite: 1].
-  * Fitur *Interactive Customizer 2D* untuk meracik varian rasa paket box PO sesuai preferensi (misal: mengganti isian cokelat dengan Red Velvet, matcha, atau keju)[cite: 1, 2].
-  * Otomatisasi penarikan data *Top 3 Best-Seller* di halaman utama[cite: 1, 2].
-  * Sistem pembayaran terintegrasi (transfer online untuk DP/lunas atau bayar di tempat/COD)[cite: 1, 2].
-  * *Dashboard* analitik penjualan bagi pemilik toko untuk memantau stok dan produk terlaris[cite: 2].
+  * Pembuatan antarmuka web 2D yang responsif dan interaktif (HTML, CSS, JavaScript).
+  * Katalog menu produk Mochi & Lukchup terbagi atas menu *Ready* (*Pick-up*) dan menu PO *Box*.
+  * Fitur *Interactive Customizer 2D* untuk meracik varian rasa paket box PO sesuai preferensi (misal: mengganti isian cokelat dengan Red Velvet, matcha, atau keju).
+  * Otomatisasi penarikan data *Top 3 Best-Seller* di halaman utama.
+  * Sistem pembayaran terintegrasi (transfer online untuk DP/lunas atau bayar di tempat/COD).
+  * *Dashboard* analitik penjualan bagi pemilik toko untuk memantau stok dan produk terlaris.
 - **Out-Of-Scope:**
-  * Pemodelan objek 3D interaktif yang kompleks (fokus penuh pada pengalaman visual 2D berbasis web)[cite: 2].
+  * Pemodelan objek 3D interaktif yang kompleks (fokus penuh pada pengalaman visual 2D berbasis web).
 
 ---
 
@@ -93,52 +93,37 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
     <td><img src="https://img.shields.io/badge/Role-Data_Analytics_%26_QA-D81B60?style=flat-square" alt="Role"></td>
   </tr>
   <tr align="left">
-    <td>• Memimpin koordinasi tim<br>• Mengatur jadwal & GitHub<br>• Menyusun laporan akhir[cite: 3]</td>
-    <td>• Merancang wireframe / UI 2D<br>• Katalog Mochi & Lukchup<br>• Customizer box PO interaktif[cite: 3]</td>
-    <td>• Membangun struktur database<br>• Alur transaksi & pembayaran<br>• Pemisahan pick-up & PO[cite: 3]</td>
-    <td>• Logika otomatisasi top 3<br>• Dashboard analitik toko<br>• Pengujian fungsionalitas[cite: 4]</td>
+    <td>• Memimpin koordinasi tim<br>• Mengatur jadwal & GitHub<br>• Menyusun laporan akhir</td>
+    <td>• Analisis kebutuhan sistem<br>• Perancangan alur data<br>• Pengujian fungsionalitas (QA)</td>
+    <td>• Merancang wireframe / UI 2D<br>• Katalog Mochi & Lukchup<br>• Customizer box PO interaktif</td>
+    <td>• Membangun struktur database<br>• Alur transaksi & pembayaran<br>• Integrasi sistem backend</td>
   </tr>
 </table>
 
-- **Klien / Mitra Usaha:** Wulandari (*Business Owner* Kedai Wulan) — Penyedia resep dasar, opsi rasa fleksibel, dan lokasi uji coba sistem[cite: 4].
-- **Evaluator / Penilai:** Cut Alna Fadhilla, S.Kom., M.Sc. (Dosen Pengampu Mata Kuliah Manajemen Proyek Perangkat Lunak)[cite: 4, 5].
-
+- **Klien / Mitra Usaha:** Wulandari (*Business Owner* Kedai Wulan) — Penyedia resep dasar, opsi rasa fleksibel, dan lokasi uji coba sistem.
+- **Evaluator / Penilai:** Cut Alna Fadhilla, S.Kom., M.Sc. (Dosen Pengampu Mata Kuliah Manajemen Proyek Perangkat Lunak).
 ---
 
 ## 📈 Work Breakdown Structure (WBS)
 
-- **Fase 1: Inisiasi dan Perencanaan** — Penentuan konsep bisnis 2D, pembagian peran tim, dan penyusunan dokumen manajemen proyek[cite: 5].
-- **Fase 2: Perancangan & Desain Sistem** — Pembuatan *wireframe*, perancangan skema basis data, dan inisialisasi repositori GitHub[cite: 5, 6].
-- **Fase 3: Implementasi & Pengkodean** — Pengembangan *frontend* (katalog & *customizer*), *backend* (transaksi & pembayaran), analitik data, serta integrasi kode kolaboratif via Git[cite: 6].
-- **Fase 4: Pengujian & Perbaikan Sistem** — Uji coba fungsionalitas menyeluruh (*testing*) dan perbaikan *bug* (*debugging*)[cite: 6].
-- **Fase 5: Penyusunan Laporan & Finalisasi** — Penyusunan dokumen laporan akhir kelompok serta persiapan demo aplikasi web[cite: 6].
+- **Fase 1: Inisiasi dan Perencanaan** — Penentuan konsep bisnis 2D, pembagian peran tim, dan penyusunan dokumen manajemen proyek.
+- **Fase 2: Perancangan & Desain Sistem** — Pembuatan *wireframe* (Figma), perancangan skema basis data, dan inisialisasi repositori GitHub.
+- **Fase 3: Implementasi & Pengkodean** — Pengembangan *frontend* (katalog & *customizer*), *backend* (transaksi & pembayaran), analitik data, serta integrasi kode kolaboratif via Git.
+- **Fase 4: Pengujian & Perbaikan Sistem** — Uji coba fungsionalitas menyeluruh (*testing*) dan perbaikan *bug* (*debugging*).
+- **Fase 5: Penyusunan Laporan & Finalisasi** — Penyusunan dokumen laporan akhir kelompok serta persiapan demo aplikasi web.
 
 ---
 
 ## 🔍 Hasil Observasi Klien & Solusi Sistem
 
-- **Nama UMKM:** Kedai Wulan (Luckchup & Mochiw)[cite: 5, 6].
-- **Kendala Pemilik:** Kesulitan melacak varian produk terlaris secara akurat dan kewalahan menghadapi pesanan *custom* dadakan dari pelanggan[cite: 6].
+- **Nama UMKM:** Kedai Wulan (Luckchup & Mochiw).
+- **Kendala Pemilik:** Kesulitan melacak varian produk terlaris secara akurat dan kewalahan menghadapi pesanan *custom* dadakan dari pelanggan.
 - **Solusi Web 2D:**
-  1. **Pick-up Instan (*Ready-to-Eat*):** Untuk pembelian langsung dari menu reguler atau paket tetap *Top 3 Best-Seller*[cite: 6].
-  2. **Pre-Order (PO) Box:** Untuk kustomisasi rasa fleksibel (misal: mengganti isian cokelat dengan Red Velvet atau matcha) dengan pemesanan minimal H-1 dan sistem pembayaran fleksibel[cite: 6].
+  1. **Pick-up Instan (*Ready-to-Eat*):** Untuk pembelian langsung dari menu reguler atau paket tetap *Top 3 Best-Seller*.
+  2. **Pre-Order (PO) Box:** Untuk kustomisasi rasa fleksibel (misal: mengganti isian cokelat dengan Red Velvet atau matcha) dengan pemesanan minimal H-1 dan sistem pembayaran fleksibel.
 
 ---
 
-## 📊 Analisis Ukuran Perangkat Lunak (Function Point)
-
-Perhitungan kompleksitas fungsional sistem menggunakan metode *Function Point Analysis* (FPA)[cite: 9]:
-
-| Komponen Fungsional | Deskripsi Fungsionalitas pada Sistem Web | Jumlah | Kompleksitas | Total Point |
-| :--- | :--- | :---: | :---: | :---: |
-| **External Inputs (EI)** | 1. Form pemesanan PO Box berjadwal (minimal H-1)<br>2. Form input pesanan pick-up instan (menu ready)[cite: 9] | 2[cite: 9] | 3[cite: 9] | 6[cite: 9] |
-| **External Outputs (EO)** | 3. Struk/ringkasan detail pesanan & status pembayaran<br>4. Notifikasi jadwal pengambilan pesanan (pick-up/PO)[cite: 9] | 2[cite: 9] | 4[cite: 9] | 8[cite: 9] |
-| **External Inquiries (EQ)** | 1. Otomatisasi penarikan data Top 3 Best-Seller di halaman utama<br>2. Katalog digital interaktif[cite: 9] | 2[cite: 9] | 3[cite: 9] | 6[cite: 9] |
-| **Internal Logical Files (ILF)** | 1. Tabel Database Produk (menyimpan data menu & status ready)<br>2. Tabel Database Transaksi (pemisahan pick-up & PO berjadwal)[cite: 9] | 2[cite: 9] | 7[cite: 9] | 14[cite: 9] |
-| **External Interface Files (EIF)** | Tidak ada integrasi sistem luar (*stand-alone web system*)[cite: 9] | 0 | 5 | 0 |
-| **Total Unadjusted Function Point (UFP)** | **$6 + 8 + 6 + 14 = 34$ Point**[cite: 9] | | | |
-
----
 ## 🎀 Katalog Menu & Harga
 
 <table align="center" width="100%">
@@ -184,6 +169,8 @@ Perhitungan kompleksitas fungsional sistem menggunakan metode *Function Point An
 
 <div align="center">
 
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-FFB6C1?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-FF69B4?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-FF1493?style=for-the-badge&logo=javascript&logoColor=white)
@@ -195,12 +182,14 @@ Perhitungan kompleksitas fungsional sistem menggunakan metode *Function Point An
 
 <br>
 
-| Teknologi | Peran dalam Project |
-| :--- | :--- |
-| 🌸 **HTML5** | Penyusun struktur dokumen dan elemen antarmuka web |
-| 🎀 **CSS** | Desain tata letak, responsivitas, dan tema *pastel pink* |
-| ✨ **JavaScript** | Logika interaktif pada menu dan tombol navigasi |
-| 📦 **Git & GitHub** | Kolaborasi tim, manajemen versi, dan repositori proyek |
+| Kategori Tools / Teknologi | Nama Aplikasi / Software | Peran & Penggunaan dalam Proyek |
+| :--- | :--- | :--- |
+| 📋 **Project Management** | 📓 **Notion** | Digunakan untuk manajemen tugas tim, pencatatan progres, dan dokumentasi perencanaan proyek. |
+| 🎨 **UI/UX & Wireframing** | 🟣 **Figma** | Digunakan oleh tim Frontend untuk merancang tata letak halaman web 2D, *wireframe*, dan visual *Customizer box* PO. |
+| 🌸 **Frontend Development** | 🌐 **HTML5 & CSS3** | Menyusun kerangka dokumen web serta mendesain tema *pastel pink* yang responsif dan interaktif. |
+| ✨ **Programming Language** | 💛 **JavaScript** | Mengatur logika interaktif pada katalog menu, simulasi *customizer* rasa, dan navigasi web. |
+| 💻 **Code Editor** | 💙 **Visual Studio Code** | *Editor* utama yang digunakan seluruh anggota tim untuk menulis dan mengedit kode program. |
+| 📦 **Version Control** | 🐙 **Git & GitHub** | Platform kolaborasi tim untuk manajemen versi kode, *push/pull*, serta dokumentasi repositori proyek. |
 
 ---
 
