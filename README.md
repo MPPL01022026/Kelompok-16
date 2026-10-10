@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="background-color: #FFF0F5; padding: 20px; border-radius: 15px;">
 
 # 🍓 Luckchup & Mochiw 🍡
 ### *Digital Menu & Smart Order System — Kedai Wulan*
