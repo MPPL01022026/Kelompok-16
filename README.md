@@ -1,6 +1,4 @@
-<div style="background-color: #FFE4E1; padding: 15px; border-left: 5px solid #FF69B4; border-radius: 5px;">
-  🌸 <b>Catatan Proyek:</b> Sistem ini dirancang khusus untuk mendukung digitalisasi UMKM Kedai Wulan secara interaktif dan efisien!
-</div>
+<div align="center" style="background-color: #FFF0F5; padding: 20px; border-radius: 15px;">
 
 # 🍓 Luckchup & Mochiw 🍡
 ### *Digital Menu & Smart Order System — Kedai Wulan*
