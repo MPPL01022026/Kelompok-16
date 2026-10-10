@@ -174,6 +174,7 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
 ![HTML5](https://img.shields.io/badge/HTML5-FFB6C1?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-FF69B4?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-FF1493?style=for-the-badge&logo=javascript&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-E91E63?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-D81B60?style=for-the-badge&logo=github&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-C2185B?style=for-the-badge&logo=visualstudiocode&logoColor=white)
@@ -184,13 +185,13 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
 
 | Kategori Tools / Teknologi | Nama Aplikasi / Software | Peran & Penggunaan dalam Proyek |
 | :--- | :--- | :--- |
-| 📋 **Project Management** | 📓 **Notion** | Digunakan untuk manajemen tugas tim, pencatatan progres, dan dokumentasi perencanaan proyek. |
-| 🎨 **UI/UX & Wireframing** | 🟣 **Figma** | Digunakan oleh tim Frontend untuk merancang tata letak halaman web 2D, *wireframe*, dan visual *Customizer box* PO. |
-| 🌸 **Frontend Development** | 🌐 **HTML5 & CSS3** | Menyusun kerangka dokumen web serta mendesain tema *pastel pink* yang responsif dan interaktif. |
-| ✨ **Programming Language** | 💛 **JavaScript** | Mengatur logika interaktif pada katalog menu, simulasi *customizer* rasa, dan navigasi web. |
-| 💻 **Code Editor** | 💙 **Visual Studio Code** | *Editor* utama yang digunakan seluruh anggota tim untuk menulis dan mengedit kode program. |
-| 📦 **Version Control** | 🐙 **Git & GitHub** | Platform kolaborasi tim untuk manajemen versi kode, *push/pull*, serta dokumentasi repositori proyek. |
-
+| 📋 **Project Management** | 📓 **Notion** | Manajemen tugas tim, pencatatan progres, dan dokumentasi perencanaan proyek. |
+| 🎨 **UI/UX & Wireframing** | 🟣 **Figma** | Perancangan tata letak halaman web 2D, *wireframe*, dan visual *Customizer box* PO|
+| 🌸 **Frontend Development** | 🌐 **HTML5 & CSS3** | Menyusun kerangka dokumen web serta mendesain tema *pastel pink* yang responsif[cite: 1, 2]. |
+| ✨ **Programming Language** | 💛 **JavaScript** | Mengatur logika interaktif pada katalog menu, simulasi *customizer* rasa, dan navigasi web|
+| 🗄️ **Database Management** | 🐬 **MySQL / Database** | Menyimpan data produk, mengatur alur transaksi, pemisahan *pick-up* & PO, serta analitik *best-seller*. |
+| 💻 **Code Editor** | 💙 **Visual Studio Code** | *Editor* utama yang digunakan seluruh anggota tim untuk menulis dan mengedit kode program |
+| 📦 **Version Control** | 🐙 **Git & GitHub** | Kolaborasi tim untuk manajemen versi kode, *push/pull*, serta dokumentasi repositori proyek|
 ---
 
 ## 👩‍💻 Our Team
