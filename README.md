@@ -29,14 +29,14 @@
 
 </div>
 
-## 🎀 Progress Proyek (Yang Sudah & Sedang Dibuat)
+## 💖 Progres & Status Pengerjaan Proyek
 
 <div align="center">
 
-| Status | Fitur / Komponen Proyek | Keterangan |
+| Status | Fitur / Komponen Proyek | Keterangan & Catatan |
 | :---: | :--- | :--- |
 | ✅ | **Observasi Klien & Analisis UMKM** | Pengumpulan data varian menu, harga, dan alur bisnis Kedai Wulan. |
-| ✅ | **Project Charter & WBS** | Penyusunan ruang lingkkup proyek (*Scope*) dan pembagian 5 Fase WBS. |
+| ✅ | **Project Charter & WBS** | Penyusunan ruang lingkup proyek (*Scope*) dan pembagian 5 Fase WBS. |
 | ✅ | **Desain Wireframe & Mockup 2D** | Perancangan *User Interface* (UI) interaktif bertema *Pastel Pink* via **Figma**. |
 | ✅ | **Dokumentasi & Git Repository Setup** | Manajemen repositori kelompok, WBS, dan integrasi **Notion**. |
 | 🔄 | **Frontend Development (HTML/CSS/JS)** | Pembuatan antarmuka web, katalog interaktif, dan animasi *customizer* 2D[cite: 1]. |
@@ -45,7 +45,7 @@
 
 </div>
 
-> 💡 **Keterangan:**  
+> 🌸 **Keterangan:**  
 > ✅ = *Selesai Dibuat (Fase 1)* \| 🔄 = *Sedang Dikembangkan* \| ⏳ = *Rencana Fase Berikutnya*
 
 ---
@@ -58,14 +58,13 @@
 
 ## 📑 Daftar Isi Proyek
 
-- [Progress Proyek](#-progress-proyek-yang-sudah--sedang-dibuat)
+- [Progres Proyek](#-progres--status-pengerjaan-proyek)
 - [Project Charter & Ruang Lingkup](#-project-charter--ruang-lingkup)
-- [Struktur & Pembagian Tim](#-struktur--pembagian-tim)
+- [Struktur, Ketua & Peran Tim](#-struktur-ketua--peran-tim)
 - [Work Breakdown Structure (WBS)](#-work-breakdown-structure-wbs)
 - [Hasil Observasi Klien & Solusi Sistem](#-hasil-observasi-klien--solusi-sistem)
 - [Katalog Menu & Harga](#-katalog-menu--harga)
 - [Tech Stack & Tools](#️-tech-stack--tools)
-- [Our Team](#-our-team)
 - [Academic Info](#-academic-info)
 
 ---
@@ -88,34 +87,58 @@
 
 ---
 
-## 👩‍💻 Struktur & Pembagian Tim
+## 👑 Struktur, Ketua & Peran Tim
 
-Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Informatika Universitas Samudra:
+Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Informatika Universitas Samudra dengan pembagian tugas yang jelas:
 
 <table align="center" width="100%">
   <tr align="center">
-    <td><b>Ocha Cindikya Ayumi</b></td>
-    <td><b>Qurratu Ain Nazmi</b></td>
-    <td><b>Safira Ussy Mahendra</b></td>
-    <td><b>Latifah Hanum</b></td>
+    <td><b>👑 Ocha Cindikya Ayumi</b><br><i>(Ketua Proyek)</i></td>
+    <td><b>🌸 Latifah Hanum</b><br><i>(Anggota Tim)</i></td>
+    <td><b>🍡 Qurratu Ain Nazmi</b><br><i>(Anggota Tim)</i></td>
+    <td><b>🍓 Safira Ussy Mahendra</b><br><i>(Anggota Tim)</i></td>
   </tr>
   <tr align="center">
     <td><code>NIM : 230504126</code>[cite: 1]</td>
+    <td><code>NIM : 230504061</code>[cite: 1]</td>
     <td><code>NIM : 230504123</code>[cite: 1]</td>
     <td><code>NIM : 230504135</code>[cite: 1]</td>
-    <td><code>NIM : 230504061</code>[cite: 1]</td>
   </tr>
   <tr align="center">
     <td><img src="https://img.shields.io/badge/Role-Project_Manager-FF69B4?style=flat-square" alt="Role"></td>
-    <td><img src="https://img.shields.io/badge/Role-Frontend_%2F_UI--UX-FF1493?style=flat-square" alt="Role"></td>
-    <td><img src="https://img.shields.io/badge/Role-Backend_%2F_Database-E91E63?style=flat-square" alt="Role"></td>
-    <td><img src="https://img.shields.io/badge/Role-Data_Analytics_%26_QA-D81B60?style=flat-square" alt="Role"></td>
+    <td><img src="https://img.shields.io/badge/Role-System_Analyst-FF1493?style=flat-square" alt="Role"></td>
+    <td><img src="https://img.shields.io/badge/Role-UI%2FUX_%26_Frontend-E91E63?style=flat-square" alt="Role"></td>
+    <td><img src="https://img.shields.io/badge/Role-Developer_%26_QA-D81B60?style=flat-square" alt="Role"></td>
   </tr>
   <tr align="left">
-    <td>• Memimpin koordinasi tim<br>• Mengatur jadwal & GitHub<br>• Menyusun laporan akhir</td>
-    <td>• Merancang wireframe / UI 2D<br>• Katalog Mochi & Lukchup<br>• Customizer box PO interaktif</td>
-    <td>• Membangun struktur database<br>• Alur transaksi & pembayaran<br>• Pemisahan pick-up & PO</td>
-    <td>• Logika otomatisasi top 3<br>• Dashboard analitik toko<br>• Pengujian fungsionalitas</td>
+    <td>
+      <b>Tugas Ketua:</b><br>
+      • Memimpin koordinasi & arah proyek<br>
+      • Mengatur jadwal, WBS & timeline<br>
+      • Mengelola repositori GitHub kelompok<br>
+      • Menyusun & merapikan laporan akhir
+    </td>
+    <td>
+      <b>Tugas Anggota:</b><br>
+      • Analisis kebutuhan sistem UMKM<br>
+      • Perancangan alur data & logika<br>
+      • Pengujian fungsionalitas (QA)<br>
+      • Evaluasi keselarasan sistem
+    </td>
+    <td>
+      <b>Tugas Anggota:</b><br>
+      • Merancang wireframe / UI 2D (Figma)<br>
+      • Membangun katalog Mochi & Lukchup<br>
+      • Membuat customizer box PO interaktif<br>
+      • Mendesain estetika visual web
+    </td>
+    <td>
+      <b>Tugas Anggota:</b><br>
+      • Membangun struktur database (MySQL)<br>
+      • Mengatur alur transaksi & pembayaran<br>
+      • Integrasi sistem backend & analitik<br>
+      • Pengujian performa sistem
+    </td>
   </tr>
 </table>
 
@@ -213,39 +236,6 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
 
 ---
 
-## 👩‍💻 Our Team
-
-<table align="center" width="100%">
-  <tr align="center">
-    <td><b>Ocha Cindikya Ayumi</b></td>
-    <td><b>Latifah Hanum</b></td>
-    <td><b>Qurratu Ain Nazmi</b></td>
-    <td><b>Safira Ussy Mahendra</b></td>
-  </tr>
-  <tr align="center">
-    <td><code>NIM : 230504126</code>[cite: 1]</td>
-    <td><code>NIM : 230504061</code>[cite: 1]</td>
-    <td><code>NIM : 230504123</code>[cite: 1]</td>
-    <td><code>NIM : 230504135</code>[cite: 1]</td>
-  </tr>
-  <tr align="center">
-    <td>
-      <img src="https://img.shields.io/badge/Role-Project_Manager-FF69B4?style=flat-square" alt="Role">
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Role-System_Analyst-FF1493?style=flat-square" alt="Role">
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Role-UI%2FUX_%26_Frontend-E91E63?style=flat-square" alt="Role">
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Role-Developer_%26_QA-D81B60?style=flat-square" alt="Role">
-    </td>
-  </tr>
-</table>
-
----
-
 ## 🎓 Academic Info
 
 <div align="center">
@@ -259,6 +249,9 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
 
 <br>
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z0bnRmc3U0eXU2Zm13cXAwNm83bmlycmIwa3drMTZiaWF5eHQ2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l0IybQ6l8J45BBUii/giphy.gif" width="60px" alt="Sparkles">
+<!-- GIF Imut Penutup -->
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z0bnRmc3U0eXU2Zm13cXAwNm83bmlycmIwa3drMTZiaWF5eHQ2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l0IybQ6l8J45BBUii/giphy.gif" width="70px" alt="Sparkles">
+
+</div>
 
 </div>
