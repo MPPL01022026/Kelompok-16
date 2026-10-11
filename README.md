@@ -1,42 +1,42 @@
 <div align="center">
 
-<!-- GIF Sticker Imut Mochi & Strawberry Bergerak -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1Mncxa3R3Yng2aWRpYndzcTNxcjV6bnM4eXlsNWh6aWtyYXp0eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MDJ9IbxxvDUQM/giphy.width-200.gif" width="100px" alt="Cute Mochi">
+<!-- GIF Sticker Imut Pembuka -->
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1Mncxa3R3Yng2aWRpYndzcTNxcjV6bnM4eXlsNWh6aWtyYXp0eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MDJ9IbxxvDUQM/giphy.gif" width="120px" alt="Cute Cat Mochi">
 
-# 🍓✨ Luckchup & Mochiw 🍡🌸
-### 🎀 *Interactive 2D Digital Menu & Order System — Kedai Wulan* 🎀
+# 🍓 Luckchup & Mochiw 🍡
+### 🌸 *Interactive 2D Digital Menu & Order System — Kedai Wulan* 🌸
 
-<!-- Typing Effect Header Berwarna Pink Cantik -->
+<!-- Typing Effect Header -->
 <a href="https://github.com/ochaunsam-hub/Kelompok-16">
-  <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=700&size=20&pause=1000&color=FF1493&center=true&vCenter=true&width=550&lines=Selamat+Datang+di+Kedai+Wulan!+🍓;Interactive+2D+Mochi+%26+Lukchup+Customizer+🍡;Smart+Best-Seller+Analytics+Dashboard+🌸" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Selamat+Datang+di+Kedai+Wulan!;Interactive+2D+Mochi+%26+Lukchup+Customizer;Smart+Best-Seller+Analytics+Dashboard" alt="Typing SVG" />
 </a>
 
-<br><br>
+<br>
 
-<!-- Colored Badges Estetik -->
-![Status](https://img.shields.io/badge/STATUS-FASE_1_COMPLETE-FFB6C1?style=for-the-badge&logo=github&logoColor=white)
-![Theme](https://img.shields.io/badge/THEME-PASTEL_PINK-FF69B4?style=for-the-badge&logo=heart&logoColor=white)
-![Project](https://img.shields.io/badge/CATEGORY-CULINARY_WEB-FF1493?style=for-the-badge&logo=cake&logoColor=white)
+<!-- Animated / Colored Badges -->
+![Status](https://img.shields.io/badge/Status-Fase__1__Complete-FFB6C1?style=for-the-badge&logo=github&logoColor=white)
+![Theme](https://img.shields.io/badge/Theme-Pastel__Pink-FF69B4?style=for-the-badge&logo=sparkles&logoColor=white)
+![Course](https://img.shields.io/badge/Course-Software__Project__Management-FF1493?style=for-the-badge)
 
 <br>
 
 <p align="center">
-  <b>🌟 Sistem Katalog & Pemesanan Digital Terintegrasi untuk Kedai Wulan 🌟</b><br>
-  <i>Menyajikan kemudahan eksplorasi varian Luckchup dan Mochi khas Thailand secara interaktif, manis, dan menyenangkan!</i>
+  <b>Sistem Katalog & Pemesanan Digital Terintegrasi untuk Kedai Wulan</b><br>
+  <i>Menyajikan kemudahan eksplorasi varian Luckchup dan Mochi khas Thailand secara interaktif & modern!</i>
 </p>
 
 ---
 
 </div>
 
-## 💖 Progres & Status Pengerjaan Proyek
+## 🎀 Progress Proyek (Yang Sudah & Sedang Dibuat)
 
 <div align="center">
 
-| Status | Fitur / Komponen Proyek | Keterangan & Catatan |
+| Status | Fitur / Komponen Proyek | Keterangan |
 | :---: | :--- | :--- |
 | ✅ | **Observasi Klien & Analisis UMKM** | Pengumpulan data varian menu, harga, dan alur bisnis Kedai Wulan. |
-| ✅ | **Project Charter & WBS** | Penyusunan ruang lingkup proyek (*Scope*) dan pembagian 5 Fase WBS. |
+| ✅ | **Project Charter & WBS** | Penyusunan ruang lingkkup proyek (*Scope*) dan pembagian 5 Fase WBS. |
 | ✅ | **Desain Wireframe & Mockup 2D** | Perancangan *User Interface* (UI) interaktif bertema *Pastel Pink* via **Figma**. |
 | ✅ | **Dokumentasi & Git Repository Setup** | Manajemen repositori kelompok, WBS, dan integrasi **Notion**. |
 | 🔄 | **Frontend Development (HTML/CSS/JS)** | Pembuatan antarmuka web, katalog interaktif, dan animasi *customizer* 2D[cite: 1]. |
@@ -45,7 +45,7 @@
 
 </div>
 
-> 🌸 **Keterangan:**  
+> 💡 **Keterangan:**  
 > ✅ = *Selesai Dibuat (Fase 1)* \| 🔄 = *Sedang Dikembangkan* \| ⏳ = *Rencana Fase Berikutnya*
 
 ---
@@ -58,13 +58,14 @@
 
 ## 📑 Daftar Isi Proyek
 
-- [Progres Proyek](#-progres--status-pengerjaan-proyek)
+- [Progress Proyek](#-progress-proyek-yang-sudah--sedang-dibuat)
 - [Project Charter & Ruang Lingkup](#-project-charter--ruang-lingkup)
-- [Struktur, Ketua & Peran Tim](#-struktur-ketua--peran-tim)
+- [Struktur & Pembagian Tim](#-struktur--pembagian-tim)
 - [Work Breakdown Structure (WBS)](#-work-breakdown-structure-wbs)
 - [Hasil Observasi Klien & Solusi Sistem](#-hasil-observasi-klien--solusi-sistem)
 - [Katalog Menu & Harga](#-katalog-menu--harga)
 - [Tech Stack & Tools](#️-tech-stack--tools)
+- [Our Team](#-our-team)
 - [Academic Info](#-academic-info)
 
 ---
@@ -87,58 +88,34 @@
 
 ---
 
-## 👑 Struktur, Ketua & Peran Tim
+## 👩‍💻 Struktur & Pembagian Tim
 
-Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Informatika Universitas Samudra dengan pembagian tugas yang jelas:
+Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Informatika Universitas Samudra:
 
 <table align="center" width="100%">
   <tr align="center">
-    <td><b>👑 Ocha Cindikya Ayumi</b><br><i>(Ketua Proyek)</i></td>
-    <td><b>🌸 Latifah Hanum</b><br><i>(Anggota Tim)</i></td>
-    <td><b>🍡 Qurratu Ain Nazmi</b><br><i>(Anggota Tim)</i></td>
-    <td><b>🍓 Safira Ussy Mahendra</b><br><i>(Anggota Tim)</i></td>
+    <td><b>Ocha Cindikya Ayumi</b></td>
+    <td><b>Qurratu Ain Nazmi</b></td>
+    <td><b>Safira Ussy Mahendra</b></td>
+    <td><b>Latifah Hanum</b></td>
   </tr>
   <tr align="center">
     <td><code>NIM : 230504126</code>[cite: 1]</td>
-    <td><code>NIM : 230504061</code>[cite: 1]</td>
     <td><code>NIM : 230504123</code>[cite: 1]</td>
     <td><code>NIM : 230504135</code>[cite: 1]</td>
+    <td><code>NIM : 230504061</code>[cite: 1]</td>
   </tr>
   <tr align="center">
     <td><img src="https://img.shields.io/badge/Role-Project_Manager-FF69B4?style=flat-square" alt="Role"></td>
-    <td><img src="https://img.shields.io/badge/Role-System_Analyst-FF1493?style=flat-square" alt="Role"></td>
-    <td><img src="https://img.shields.io/badge/Role-UI%2FUX_%26_Frontend-E91E63?style=flat-square" alt="Role"></td>
-    <td><img src="https://img.shields.io/badge/Role-Developer_%26_QA-D81B60?style=flat-square" alt="Role"></td>
+    <td><img src="https://img.shields.io/badge/Role-Frontend_%2F_UI--UX-FF1493?style=flat-square" alt="Role"></td>
+    <td><img src="https://img.shields.io/badge/Role-Backend_%2F_Database-E91E63?style=flat-square" alt="Role"></td>
+    <td><img src="https://img.shields.io/badge/Role-Data_Analytics_%26_QA-D81B60?style=flat-square" alt="Role"></td>
   </tr>
   <tr align="left">
-    <td>
-      <b>Tugas Ketua:</b><br>
-      • Memimpin koordinasi & arah proyek<br>
-      • Mengatur jadwal, WBS & timeline<br>
-      • Mengelola repositori GitHub kelompok<br>
-      • Menyusun & merapikan laporan akhir
-    </td>
-    <td>
-      <b>Tugas Anggota:</b><br>
-      • Analisis kebutuhan sistem UMKM<br>
-      • Perancangan alur data & logika<br>
-      • Pengujian fungsionalitas (QA)<br>
-      • Evaluasi keselarasan sistem
-    </td>
-    <td>
-      <b>Tugas Anggota:</b><br>
-      • Merancang wireframe / UI 2D (Figma)<br>
-      • Membangun katalog Mochi & Lukchup<br>
-      • Membuat customizer box PO interaktif<br>
-      • Mendesain estetika visual web
-    </td>
-    <td>
-      <b>Tugas Anggota:</b><br>
-      • Membangun struktur database (MySQL)<br>
-      • Mengatur alur transaksi & pembayaran<br>
-      • Integrasi sistem backend & analitik<br>
-      • Pengujian performa sistem
-    </td>
+    <td>• Memimpin koordinasi tim<br>• Mengatur jadwal & GitHub<br>• Menyusun laporan akhir</td>
+    <td>• Merancang wireframe / UI 2D<br>• Katalog Mochi & Lukchup<br>• Customizer box PO interaktif</td>
+    <td>• Membangun struktur database<br>• Alur transaksi & pembayaran<br>• Pemisahan pick-up & PO</td>
+    <td>• Logika otomatisasi top 3<br>• Dashboard analitik toko<br>• Pengujian fungsionalitas</td>
   </tr>
 </table>
 
@@ -236,6 +213,39 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
 
 ---
 
+## 👩‍💻 Our Team
+
+<table align="center" width="100%">
+  <tr align="center">
+    <td><b>Ocha Cindikya Ayumi</b></td>
+    <td><b>Latifah Hanum</b></td>
+    <td><b>Qurratu Ain Nazmi</b></td>
+    <td><b>Safira Ussy Mahendra</b></td>
+  </tr>
+  <tr align="center">
+    <td><code>NIM : 230504126</code>[cite: 1]</td>
+    <td><code>NIM : 230504061</code>[cite: 1]</td>
+    <td><code>NIM : 230504123</code>[cite: 1]</td>
+    <td><code>NIM : 230504135</code>[cite: 1]</td>
+  </tr>
+  <tr align="center">
+    <td>
+      <img src="https://img.shields.io/badge/Role-Project_Manager-FF69B4?style=flat-square" alt="Role">
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Role-System_Analyst-FF1493?style=flat-square" alt="Role">
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Role-UI%2FUX_%26_Frontend-E91E63?style=flat-square" alt="Role">
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Role-Developer_%26_QA-D81B60?style=flat-square" alt="Role">
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🎓 Academic Info
 
 <div align="center">
@@ -249,7 +259,6 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
 
 <br>
 
-<!-- GIF Imut Penutup -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z0bnRmc3U0eXU2Zm13cXAwNm83bmlycmIwa3drMTZiaWF5eHQ2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l0IybQ6l8J45BBUii/giphy.gif" width="70px" alt="Sparkles">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z0bnRmc3U0eXU2Zm13cXAwNm83bmlycmIwa3drMTZiaWF5eHQ2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l0IybQ6l8J45BBUii/giphy.gif" width="60px" alt="Sparkles">
 
 </div>
