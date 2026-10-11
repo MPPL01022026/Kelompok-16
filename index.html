@@ -4,52 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mochi & Lukchup Customizer & Analytics Dashboard</title>
-    <style>
-        /* CSS Sederhana untuk Tampilan Awal */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fdf6f0;
-            color: #333;
-        }
-        header {
-            background-color: #e07a5f;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #3d405b;
-            padding: 1rem;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            color: #f4f1de;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #e07a5f;
-        }
-        .team-list {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-    </style>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -65,6 +21,7 @@
         <a href="#about">Tentang Kami</a>
     </nav>
 
+
     <div class="container" id="home">
         <h2>Selamat Datang di Proyek Kelompok 16!</h2>
         <p>Aplikasi web interaktif ini dirancang untuk memudahkan pelanggan dalam melakukan kustomisasi kue tradisional Mochi dan Lukchup sesuai selera mereka, serta menyediakan analitik penjualan produk terlaris bagi pengelola.</p>
@@ -79,6 +36,51 @@
             <li><strong>Latifah</strong> - Documentation & Quality Assurance</li>
         </ul>
     </div>
+
+
+    <div class="container" id="customizer">
+        <h2>Interactive 2D Customizer</h2>
+        <p>Pilih kombinasi warna, bentuk, dan isian Mochi atau Lukchup favoritmu secara langsung di sini!</p>
+        
+        <div class="customizer-box">
+            <div class="canvas-area">
+                [ Area Canvas 2D Mochi / Lukchup ]
+            </div>
+            <div class="controls-area">
+                <h3>Panel Kontrol</h3>
+                <p style="font-size: 0.9rem; color: #666;">Pilih Opsi Produk:</p>
+                <label style="font-size: 0.85rem;"><input type="radio" name="product" checked> Mochi Tradisional</label><br>
+                <label style="font-size: 0.85rem;"><input type="radio" name="product"> Lukchup Buah</label>
+                
+                <button class="btn">Simpan Kustomisasi</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="analytics" style="margin-top: 30px;">
+        <h2>Best-Seller Analytics Dashboard</h2>
+        <p>Statistik penjualan produk Mochi dan Lukchup terlaris berdasarkan data real-time.</p>
+        
+        <div class="customizer-box" style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div class="canvas-area" style="flex: 1; min-width: 250px; background: #fff; padding: 20px; border-radius: 8px; border: 1px solid #ffd1dc;">
+                <h3>📊 Grafik Penjualan Produk</h3>
+                <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">
+                    • Mochi Tradisional: <strong>65% (Terlaris)</strong><br>
+                    • Lukchup Buah: <strong>35%</strong>
+                </p>
+            </div>
+            <div class="controls-area" style="flex: 1; min-width: 250px;">
+                <h3>Ringkasan Performa</h3>
+                <p style="font-size: 0.9rem; color: #666;">Total Kustomisasi Hari Ini:</p>
+                <h4 style="color: #d81b60; font-size: 1.5rem; margin: 5px 0;">128 Pesanan</h4>
+                <button class="btn" id="refresh-btn" style="margin-top: 10px;">Perbarui Data Analitik</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
 
 </body>
 </html>
