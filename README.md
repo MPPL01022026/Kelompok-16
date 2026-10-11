@@ -1,7 +1,7 @@
-<div align="center" style="background-color: #FFF0F5; padding: 20px; border-radius: 15px;">
+<div align="center">
 
-# 🍓 Luckchup & Mochiw 🍡
-### *Digital Menu & Smart Order System — Kedai Wulan*
+# 🍓 Luckchup & Mochiw  🍡
+### *Web-Based Interactive 2D Mochi & Lukchup Customizer & Best-Seller Analytics Dashboard*
 
 ![Project Status](https://img.shields.io/badge/Status-Process-FFB6C1?style=for-the-badge&logoColor=white)
 ![Theme](https://img.shields.io/badge/Theme-Pastel_Pink-FF69B4?style=for-the-badge)
@@ -22,7 +22,7 @@
 
 <div align="center">
 
-**Luckchup & Mochiw Digital System** adalah platform katalog dan informasi produk kuliner interaktif. Web ini dibuat untuk memudahkan pelanggan Kedai Wulan dalam melihat daftar varian rasa, harga terbaru, serta melakukan pemesanan secara practical langsung melalui integrasi media sosial.
+**Luckchup & Mochiw Digital System** adalah platform katalog dan informasi produk kuliner interaktif. Web ini dibuat untuk memudahkan pelanggan Kedai Wulan dalam melihat daftar varian rasa, harga terbaru, serta melakukan pemesanan secara praktis langsung melalui integrasi media sosial.
 
 </div>
 
@@ -34,9 +34,10 @@
 > - **Akses Cepat:** Link pemesanan langsung terhubung ke media sosial resmi kedai.
 
 ---
+
 ## 📌 Ringkasan Eksekutif
 
-**Luckchup & Mochiw Web System** adalah platform digital interaktif yang dikembangkan untuk mendigitalisasi operasional **Kedai Wulan**[cite: 1, 2]. Sistem ini memisahkan layanan pembelian *Pick-up* instan (menu *ready*) dan Pre-Order (PO) *Box* dengan kustomisasi rasa fleksibel (minimal H-1), pembayaran terintegrasi, serta analitik penjualan produk terlaris secara otomatis[cite: 1, 2].
+**Luckchup & Mochiw Web System** adalah platform digital interaktif yang dikembangkan untuk mendigitalisasi operasional **Kedai Wulan**. Sistem ini memisahkan layanan pembelian *Pick-up* instan (menu *ready*) dan Pre-Order (PO) *Box* dengan kustomisasi rasa fleksibel (minimal H-1), pembayaran terintegrasi, serta analitik penjualan produk terlaris secara otomatis.
 
 ---
 
@@ -48,6 +49,8 @@
 - [Hasil Observasi Klien & Solusi Sistem](#-hasil-observasi-klien--solusi-sistem)
 - [Katalog Menu & Harga](#-katalog-menu--harga)
 - [Tech Stack & Tools](#️-tech-stack--tools)
+- [Our Team](#-our-team)
+- [Academic Info](#-academic-info)
 
 ---
 
@@ -71,7 +74,7 @@
 
 ## 👩‍💻 Struktur & Pembagian Tim
 
-Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Informatika Universitas Samudra[cite: 2, 4, 5]:
+Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Informatika Universitas Samudra:
 
 <table align="center" width="100%">
   <tr align="center">
@@ -81,10 +84,10 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
     <td><b>Latifah Hanum</b></td>
   </tr>
   <tr align="center">
-    <td><code>NIM : 230504126</code>[cite: 1]</td>
-    <td><code>NIM : 230504123</code>[cite: 1]</td>
-    <td><code>NIM : 230504135</code>[cite: 1]</td>
-    <td><code>NIM : 230504061</code>[cite: 1]</td>
+    <td><code>NIM : 230504126</code></td>
+    <td><code>NIM : 230504123</code></td>
+    <td><code>NIM : 230504135</code></td>
+    <td><code>NIM : 230504061</code></td>
   </tr>
   <tr align="center">
     <td><img src="https://img.shields.io/badge/Role-Project_Manager-FF69B4?style=flat-square" alt="Role"></td>
@@ -94,14 +97,15 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
   </tr>
   <tr align="left">
     <td>• Memimpin koordinasi tim<br>• Mengatur jadwal & GitHub<br>• Menyusun laporan akhir</td>
-    <td>• Analisis kebutuhan sistem<br>• Perancangan alur data<br>• Pengujian fungsionalitas (QA)</td>
     <td>• Merancang wireframe / UI 2D<br>• Katalog Mochi & Lukchup<br>• Customizer box PO interaktif</td>
     <td>• Membangun struktur database<br>• Alur transaksi & pembayaran<br>• Integrasi sistem backend</td>
+    <td>• Analisis kebutuhan sistem<br>• Perancangan alur data<br>• Pengujian fungsionalitas (QA)</td>
   </tr>
 </table>
 
 - **Klien / Mitra Usaha:** Wulandari (*Business Owner* Kedai Wulan) — Penyedia resep dasar, opsi rasa fleksibel, dan lokasi uji coba sistem.
 - **Evaluator / Penilai:** Cut Alna Fadhilla, S.Kom., M.Sc. (Dosen Pengampu Mata Kuliah Manajemen Proyek Perangkat Lunak).
+
 ---
 
 ## 📈 Work Breakdown Structure (WBS)
@@ -169,15 +173,7 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
 
 <div align="center">
 
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-FFB6C1?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-FF69B4?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-FF1493?style=for-the-badge&logo=javascript&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-E91E63?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-D81B60?style=for-the-badge&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-C2185B?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+<img src="https://skillicons.dev/icons?i=notion,figma,html,css,js,mysql,vscode,git,github" height="50" alt="tech stack icons"/>
 
 </div>
 
@@ -186,12 +182,13 @@ Proyek ini dikembangkan secara kolaboratif oleh 4 mahasiswa Program Studi Inform
 | Kategori Tools / Teknologi | Nama Aplikasi / Software | Peran & Penggunaan dalam Proyek |
 | :--- | :--- | :--- |
 | 📋 **Project Management** | 📓 **Notion** | Manajemen tugas tim, pencatatan progres, dan dokumentasi perencanaan proyek. |
-| 🎨 **UI/UX & Wireframing** | 🟣 **Figma** | Perancangan tata letak halaman web 2D, *wireframe*, dan visual *Customizer box* PO|
-| 🌸 **Frontend Development** | 🌐 **HTML5 & CSS3** | Menyusun kerangka dokumen web serta mendesain tema *pastel pink* yang responsif[cite: 1, 2]. |
-| ✨ **Programming Language** | 💛 **JavaScript** | Mengatur logika interaktif pada katalog menu, simulasi *customizer* rasa, dan navigasi web|
+| 🎨 **UI/UX & Wireframing** | 🟣 **Figma** | Perancangan tata letak halaman web 2D, *wireframe*, dan visual *Customizer box* PO. |
+| 🌸 **Frontend Development** | 🌐 **HTML5 & CSS3** | Menyusun kerangka dokumen web serta mendesain tema *pastel pink* yang responsif. |
+| ✨ **Programming Language** | 💛 **JavaScript** | Mengatur logika interaktif pada katalog menu, simulasi *customizer* rasa, dan navigasi web. |
 | 🗄️ **Database Management** | 🐬 **MySQL / Database** | Menyimpan data produk, mengatur alur transaksi, pemisahan *pick-up* & PO, serta analitik *best-seller*. |
-| 💻 **Code Editor** | 💙 **Visual Studio Code** | *Editor* utama yang digunakan seluruh anggota tim untuk menulis dan mengedit kode program |
-| 📦 **Version Control** | 🐙 **Git & GitHub** | Kolaborasi tim untuk manajemen versi kode, *push/pull*, serta dokumentasi repositori proyek|
+| 💻 **Code Editor** | 💙 **Visual Studio Code** | *Editor* utama yang digunakan seluruh anggota tim untuk menulis dan mengedit kode program. |
+| 📦 **Version Control** | 🐙 **Git & GitHub** | Kolaborasi tim untuk manajemen versi kode, *push/pull*, serta dokumentasi repositori proyek. |
+
 ---
 
 ## 👩‍💻 Our Team
