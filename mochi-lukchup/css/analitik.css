@@ -1,0 +1,7 @@
+/* Khusus analitik.html (bagian Ain). Menggantikan style="..." yang tadinya di dalam HTML. */
+.an-row { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
+.an-card, .an-panel { flex: 1; min-width: 250px; padding: 20px; border-radius: 8px; }
+.an-card { background: #fff; border: 1px solid #ffd1dc; }
+.an-panel { background: #fff9fb; border: 1px solid #ffe4e6; }
+.an-note { margin-top: 10px; color: #666; font-size: 0.9rem; }
+.an-total { margin: 5px 0; color: #d81b60; font-size: 1.5rem; }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard | Mochi &amp; Lukchup</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/analitik.css">
+</head>
+<body>
+
+    <div id="site-header"></div>
+    <script src="js/layout.js"></script>
+
+    <div class="container" id="analytics">
+        <h2>Best-Seller Analytics Dashboard</h2>
+        <p>Statistik penjualan produk Mochi dan Lukchup terlaris berdasarkan data real-time.</p>
+
+        <!-- Angka di bawah ini masih contoh (placeholder) dari versi awal -->
+        <div class="an-row">
+            <div class="an-card">
+                <h3>Grafik Penjualan Produk</h3>
+                <p class="an-note">
+                    &bull; Mochi: <strong>65% (Terlaris)</strong><br>
+                    &bull; Lukchup: <strong>35%</strong>
+                </p>
+            </div>
+            <div class="an-panel">
+                <h3>Ringkasan Performa</h3>
+                <p class="an-note">Total Kustomisasi Hari Ini:</p>
+                <h4 class="an-total">128 Pesanan</h4>
+                <button class="btn" id="refresh-btn">Perbarui Data Analitik</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/analytics-core.js"></script>
+    <!-- Ain: skrip grafik/dashboard taruh di js/analitik.js lalu aktifkan baris di bawah -->
+    <!-- <script src="js/analitik.js"></script> -->
+</body>
+</html>

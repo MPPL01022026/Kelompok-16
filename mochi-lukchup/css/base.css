@@ -1,0 +1,65 @@
+/* Gaya dasar: dipakai SEMUA halaman (header, menu, kartu putih, tombol).
+   Isinya sama dengan style.css lama, ditambah menu aktif & tombol pil di bagian bawah. */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9fb;
+    color: #4a4044;
+}
+
+header {
+    background: linear-gradient(135deg, #ffb6c1, #ff91a4);
+    color: #ffffff;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(255, 182, 193, 0.4);
+}
+header h1 { margin: 0; font-size: 2.2rem; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+header p { margin-top: 8px; font-size: 1rem; opacity: 0.95; }
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-bottom: 2px solid #ffe4e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+nav a { color: #d87093; text-decoration: none; margin: 0 20px; font-weight: 600; transition: color 0.2s; }
+nav a:hover { color: #ff69b4; }
+nav a.active { color: #ff69b4; border-bottom: 2px solid #ff69b4; }
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(255, 182, 193, 0.15);
+    border: 1px solid #ffe4e6;
+}
+h2 { color: #d87093; border-bottom: 2px solid #fff0f3; padding-bottom: 8px; margin-top: 0; }
+
+.team-list { list-style-type: none; padding-left: 0; }
+.team-list li { background-color: #fff5f7; margin-bottom: 8px; padding: 10px 15px; border-radius: 6px; border-left: 4px solid #ffb6c1; }
+
+.btn {
+    display: block; width: 100%; padding: 12px;
+    background: linear-gradient(135deg, #ffb6c1, #ff8da1);
+    color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; margin-top: 15px;
+    transition: opacity 0.2s, box-shadow 0.2s;
+    box-shadow: 0 3px 10px rgba(255, 141, 161, 0.3);
+}
+.btn:hover { opacity: 0.9; box-shadow: 0 4px 12px rgba(255, 141, 161, 0.5); }
+
+/* Tombol pil (dipakai beranda & Dubai) */
+.btn-pill {
+    display: inline-block; padding: 11px 20px; border-radius: 999px;
+    border: 1.5px solid #ffb6c1; background: #fff; color: #d87093;
+    font: inherit; font-weight: 700; text-decoration: none; cursor: pointer;
+}
+.btn-pill:hover { background: #fff0f3; }
+.btn-pill.primary { background: linear-gradient(135deg, #ffb6c1, #ff8da1); border-color: transparent; color: #fff; box-shadow: 0 3px 10px rgba(255, 141, 161, 0.3); }
+.btn-pill.primary:hover { opacity: 0.92; }

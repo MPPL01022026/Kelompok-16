@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizer 2D | Mochi &amp; Lukchup</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/customizer.css">
+</head>
+<body>
+
+    <div id="site-header"></div>
+    <script src="js/layout.js"></script>
+
+<div class="container" id="customizer">
+    <h2>Interactive 2D Customizer</h2>
+    <p>Pilih kombinasi warna, bentuk, dan isian Mochi atau Lukchup favoritmu, lihat hasilnya langsung di sini!</p>
+
+    <div class="cz-tabs" id="cz-tabs">
+        <button type="button" class="cz-tab active" data-product="mochi">Mochi</button>
+        <button type="button" class="cz-tab" data-product="lukchup">Lukchup</button>
+    </div>
+
+    <div class="cz-box">
+        <!-- Kiri: pratinjau 2D -->
+        <div class="cz-stage">
+            <svg id="cz-svg" viewBox="0 0 240 240" role="img" aria-label="Pratinjau desain"></svg>
+            <div class="cz-name" id="cz-name"></div>
+            <div class="cz-cutrow" id="cz-cutrow">
+                <span>Tutup</span>
+                <input type="range" id="cz-cut" min="0" max="100" value="0" aria-label="Geser untuk membelah mochi dan melihat isian">
+                <span>Belah</span>
+            </div>
+        </div>
+
+        <!-- Kanan: panel pilihan -->
+        <div class="cz-panel">
+            <div id="cz-options"></div>
+
+            <div class="cz-qtyrow">
+                <span>Jumlah</span>
+                <div class="cz-qty">
+                    <button type="button" id="cz-minus" aria-label="Kurangi jumlah">-</button>
+                    <strong id="cz-qty">1</strong>
+                    <button type="button" id="cz-plus" aria-label="Tambah jumlah">+</button>
+                </div>
+            </div>
+
+            <ul class="cz-lines" id="cz-lines"></ul>
+            <div class="cz-total"><span>Total</span><strong id="cz-total">Rp0</strong></div>
+
+            <div class="cz-actions">
+                <button type="button" class="cz-btn" id="cz-random">Acak desain</button>
+                <button type="button" class="cz-btn" id="cz-reset">Reset</button>
+                <button type="button" class="cz-btn primary" id="cz-save">Simpan kustomisasi</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Daftar kustomisasi yang sudah disimpan -->
+    <div class="cz-saved-wrap">
+        <h3>Kustomisasi tersimpan <span id="cz-count">(0)</span></h3>
+        <ul class="cz-saved" id="cz-saved"></ul>
+        <button type="button" class="cz-btn small" id="cz-clear">Hapus semua</button>
+    </div>
+
+    <div class="cz-toast" id="cz-toast" role="status" aria-live="polite"></div>
+</div>
+
+    <script src="js/data.js"></script>
+    <script src="js/art.js"></script>
+    <script src="js/customizer.js"></script>
+</body>
+</html>
