@@ -1,0 +1,8 @@
+/* Khusus index.html (Beranda): bagian Best Seller */
+.bs-empty { margin: 0; padding: 22px; text-align: center; color: #a08a90; background: #fff5f7; border: 1px dashed #ffb6c1; border-radius: 10px; }
+.bs-items { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.bs-item { display: flex; align-items: center; gap: 12px; padding: 10px 14px; background: #fff5f7; border-left: 4px solid #ffb6c1; border-radius: 6px; }
+.bs-item div { flex: 1; display: flex; flex-direction: column; }
+.bs-item small { color: #9a8389; }
+.bs-rank { width: 30px; height: 30px; border-radius: 50%; background: #ffb6c1; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; }
+.bs-count { color: #d81b60; font-weight: 700; font-size: 0.9rem; }
