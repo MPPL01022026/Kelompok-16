@@ -1,87 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mochi & Lukchup Customizer & Analytics Dashboard</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Beranda | Mochi &amp; Lukchup</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/beranda.css">
+    <link rel="stylesheet" href="css/kartu-produk.css">
+    <link rel="stylesheet" href="css/dubai.css">
 </head>
 <body>
 
-    <header>
-        <h1>Mochi & Lukchup Customizer</h1>
-        <p>Web-Based Interactive 2D Mochi & Lukchup Customizer & Best-Seller Analytics Dashboard</p>
-    </header>
+    <div id="site-header"></div>
+    <script src="js/layout.js"></script>
 
-    <nav>
-        <a href="#home">Beranda</a>
-        <a href="#customizer">Customizer 2D</a>
-        <a href="#analytics">Analytics Dashboard</a>
-        <a href="#about">Tentang Kami</a>
-    </nav>
+    <!-- Dubai Chewy Cookie: blok spesial (Jumat) atau banner melayang (hari lain) -->
+    <div id="dubai-slot"></div>
 
-
-    <div class="container" id="home">
-        <h2>Selamat Datang di Proyek Kelompok 16!</h2>
-        <p>Aplikasi web interaktif ini dirancang untuk memudahkan pelanggan dalam melakukan kustomisasi kue tradisional Mochi dan Lukchup sesuai selera mereka, serta menyediakan analitik penjualan produk terlaris bagi pengelola.</p>
-        
-        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
-
-        <h3>Tim Pengembang (Kelompok 16):</h3>
-        <ul class="team-list">
-            <li><strong>Ocha</strong> - Project Lead & Developer</li>
-            <li><strong>Safira</strong> - UI/UX & Frontend Designer</li>
-            <li><strong>Ain</strong> - Analytics & Logic Developer</li>
-            <li><strong>Latifah</strong> - Documentation & Quality Assurance</li>
-        </ul>
+    <div class="container" id="bestseller">
+        <h2>Best Seller</h2>
+        <div id="bs-list"></div>
     </div>
 
-
-    <div class="container" id="customizer">
-        <h2>Interactive 2D Customizer</h2>
-        <p>Pilih kombinasi warna, bentuk, dan isian Mochi atau Lukchup favoritmu secara langsung di sini!</p>
-        
-        <div class="customizer-box">
-            <div class="canvas-area">
-                [ Area Canvas 2D Mochi / Lukchup ]
-            </div>
-            <div class="controls-area">
-                <h3>Panel Kontrol</h3>
-                <p style="font-size: 0.9rem; color: #666;">Pilih Opsi Produk:</p>
-                <label style="font-size: 0.85rem;"><input type="radio" name="product" checked> Mochi Tradisional</label><br>
-                <label style="font-size: 0.85rem;"><input type="radio" name="product"> Lukchup Buah</label>
-                
-                <button class="btn">Simpan Kustomisasi</button>
-            </div>
-        </div>
+    <div class="container" id="produk">
+        <div class="kp-head"><h2>Mochi</h2><span id="kp-mochi-price"></span></div>
+        <div class="kp-grid" id="kp-mochi"></div>
+        <div class="kp-head"><h2>Lukchup</h2><span id="kp-lukchup-price"></span></div>
+        <div class="kp-grid" id="kp-lukchup"></div>
     </div>
 
-
-    <div class="container" id="analytics" style="margin-top: 30px;">
-        <h2>Best-Seller Analytics Dashboard</h2>
-        <p>Statistik penjualan produk Mochi dan Lukchup terlaris berdasarkan data real-time.</p>
-        
-        <div class="customizer-box" style="display: flex; gap: 20px; flex-wrap: wrap;">
-            <div class="canvas-area" style="flex: 1; min-width: 250px; background: #fff; padding: 20px; border-radius: 8px; border: 1px solid #ffd1dc;">
-                <h3>📊 Grafik Penjualan Produk</h3>
-                <p style="color: #666; font-size: 0.9rem; margin-top: 10px;">
-                    • Mochi Tradisional: <strong>65% (Terlaris)</strong><br>
-                    • Lukchup Buah: <strong>35%</strong>
-                </p>
-            </div>
-            <div class="controls-area" style="flex: 1; min-width: 250px;">
-                <h3>Ringkasan Performa</h3>
-                <p style="font-size: 0.9rem; color: #666;">Total Kustomisasi Hari Ini:</p>
-                <h4 style="color: #d81b60; font-size: 1.5rem; margin: 5px 0;">128 Pesanan</h4>
-                <button class="btn" id="refresh-btn" style="margin-top: 10px;">Perbarui Data Analitik</button>
-            </div>
-        </div>
-    </div>
-
-    
-    <script src="script.js"></script>
-
+    <script src="js/data.js"></script>
+    <script src="js/art.js"></script>
+    <script src="js/kartu.js"></script>
+    <script src="js/analytics-core.js"></script>
+    <script src="js/dubai.js"></script>
+    <script src="js/bestseller.js"></script>
+    <script src="js/kartu-produk.js"></script>
 </body>
 </html>

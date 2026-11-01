@@ -1,0 +1,3 @@
+/* Khusus index.html: bagian Best Seller. Kartunya memakai gaya kp- dari kartu-produk.css */
+.bs-empty { margin: 0; padding: 22px; text-align: center; color: #a08a90; background: #fff5f7; border: 1px dashed #ffb6c1; border-radius: 10px; }
+#bs-list .kp-grid { margin-bottom: 0; }

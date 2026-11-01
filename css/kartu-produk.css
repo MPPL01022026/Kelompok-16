@@ -16,3 +16,4 @@
 .kp-pick:hover { background: #ffe4e9; }
 .kp-pick:focus-visible { outline: 3px solid #ff69b4; outline-offset: 2px; }
 @media (max-width: 900px) { .kp-grid { grid-template-columns: repeat(2, 1fr); } }
+.kp-sold { font-size: 0.75rem; font-weight: 600; color: #d81b60; }

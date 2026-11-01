@@ -21,6 +21,7 @@ header p { margin-top: 8px; font-size: 1rem; opacity: 0.95; }
 nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     background-color: #ffffff;
     padding: 1rem;
@@ -63,3 +64,8 @@ h2 { color: #d87093; border-bottom: 2px solid #fff0f3; padding-bottom: 8px; marg
 .btn-pill:hover { background: #fff0f3; }
 .btn-pill.primary { background: linear-gradient(135deg, #ffb6c1, #ff8da1); border-color: transparent; color: #fff; box-shadow: 0 3px 10px rgba(255, 141, 161, 0.3); }
 .btn-pill.primary:hover { opacity: 0.92; }
+
+/* Menu tombol (Pesan Banyak) */
+nav a.nav-cta { background: linear-gradient(135deg, #ffb6c1, #ff8da1); color: #fff; padding: 7px 18px; border-radius: 999px; box-shadow: 0 3px 10px rgba(255, 141, 161, 0.3); }
+nav a.nav-cta:hover { color: #fff; opacity: 0.92; }
+nav a.nav-cta.active { border-bottom: 0; box-shadow: 0 0 0 3px #ffd1dc; }
